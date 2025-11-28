@@ -1,0 +1,315 @@
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.box-shadow {
+  box-shadow: 5px 10px 10px -1px #CCC !important;
+}
+
+.box-info {
+  box-shadow: 1px 3px 2px #ccc;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background: #f2f2f2;
+}
+
+.box-argomento {
+  padding: 10px;
+  background: white;
+  text-align: center;
+  height: 135px;
+  padding-top: 20px;
+  cursor: pointer;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 979px) {
+  .box-argomento {
+    margin-bottom: 10px;
+  }
+
+  .box-info {
+    width: 95% !important;
+  }
+
+  .formField {
+    width: 97% !important;
+  }
+
+  .span-prima-col {
+    margin-left: 10px !important;
+  }
+
+  .span-other-col {
+    margin-left: 10px !important;
+  }
+
+  .spanHaiCercato h2 {
+    font-size: 22px !important;
+    line-height: 20px !important;
+  }
+
+  .rowHaiCercato {
+    margin-top: 50px;
+  }
+}
+.portlet-breadcrumb {
+  margin-top: 60px;
+  position: absolute;
+  z-index: 2;
+  padding-left: 5px;
+}
+
+.radio-label {
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+@media (min-width: 769px) and (max-width: 979px) {
+  .box-argomento {
+    width: 48% !important;
+    float: left !important;
+    margin-right: 10px;
+  }
+}
+.box-argomento.current {
+  background: #eee;
+  /* 	color:#c33; */
+}
+
+.box-argomento.current .textArg1 {
+  color: #c33;
+}
+
+.textArg1 {
+  color: #646464;
+}
+
+hr.linea-separatore-slim {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.spanForm {
+  margin-left: 10px !important;
+  margin-top: 12px;
+  max-height: 70px;
+}
+
+@media (min-width: 980px) {
+  .formField {
+    width: 100% !important;
+  }
+
+  .text-right-no-mobile {
+    text-align: right;
+  }
+
+  .spanScrivi {
+    /* 		text-align:right */
+  }
+
+  .spanPrenota {
+    /* 		text-align:left */
+  }
+
+  .spanPrenota .radio-label {
+    /* 		margin-left:20px */
+  }
+
+  .span-prima-col {
+    text-align: center;
+  }
+
+  .span-other-col {
+    text-align: center;
+  }
+}
+.formField {
+  margin-bottom: 0 !important;
+}
+
+select.formField {
+  height: 35px !important;
+}
+
+textarea {
+  min-height: 70px;
+  resize: none;
+  width: 95% !important;
+}
+
+.spanInfoIcon {
+  width: 35px !important;
+  float: left !important;
+}
+
+.spanInfoLabel {
+  color: #666666 !important;
+  font-style: italic;
+  font-weight: bold;
+}
+
+tr.intestazionePrenotazione td {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: bottom;
+  height: 10px;
+}
+
+.notaOrariDisponibili {
+  color: #aeaeae;
+  font-style: italic;
+  font-size: 12px !important;
+  padding-top: 0px;
+}
+
+#richiestaAssistTable {
+  font-size: 11px !important;
+  line-height: 10px !important;
+}
+
+table, th, td {
+  border-collapse: separate !important;
+  border: 4px solid #f2f2f2;
+  /**#F0F0F0;*/
+  min-width: 20px;
+  height: 25px;
+  text-align: center;
+}
+
+tr.giorniPrenotazione {
+  line-height: 12px !important;
+}
+
+td.assistDisponibile {
+  /* 	background-color: #3B76B2; */
+  background-color: #009900;
+  width: 18px;
+  height: 10px;
+}
+
+td.assistNonDisponibile {
+  background-color: #646464;
+  width: 18px;
+  height: 10px;
+}
+
+table td.highlighted {
+  border-color: red;
+}
+
+table tr {
+  border-left: none !important;
+  border-right: none !important;
+  border-top-color: #EDEDED !important;
+  border-top-style: solid !important;
+  border-top-width: 1px !important;
+  border-bottom: none !important;
+  border-collapse: separate;
+}
+
+.accordion-group, .accordion-inner {
+  border: 1px solid transparent !important;
+}
+
+.accordion-inner {
+  padding: 0 !important;
+  padding-left: 10px !important;
+}
+
+.success-field {
+  border: 1px solid #ccc !important;
+  color: inherit !important;
+}
+
+.callmenowLabelDiv .error .help-inline {
+  display: none;
+}
+
+#errorMessageFasce {
+  font-style: italic;
+  color: #b94a48;
+}
+
+.icon-errore {
+  color: #990000;
+  top: 50%;
+  left: 25%;
+}
+
+.spanError {
+  border: 1px solid #990000;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.row-tab-intest {
+  background: #c33;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.row-tab {
+  margin-top: 1px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1px;
+}
+
+.img-tab {
+  width: 20px;
+}
+
+.span-prima-col {
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.span-other-col .visible-phone img {
+  float: right !important;
+  margin-right: 20px !important;
+}
+
+.span-other-col .visible-phone {
+  font-size: 13px;
+}
+
+.rowHaiCercato {
+  background: #eee;
+  margin-left: -30%;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 20px;
+}
+
+.greyRowLayout {
+  background: white;
+  z-index: -1;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.getCampiWebForm {
+  margin-top: 30px !important;
+}
+
+.inviaRichiestaForm input[type=text] {
+  height: 35px !important;
+}
+
+.g-recaptcha {
+  margin-left: 10px;
+}
+
+.spanVerificaKO {
+  font-style: italic;
+  color: #b50303;
+  font-weight: bold;
+}

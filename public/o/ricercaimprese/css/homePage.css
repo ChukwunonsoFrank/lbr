@@ -1,0 +1,478 @@
+.searchButton {
+    position: absolute;
+    right: 15px;
+    text-align: right;
+    top: -15px;
+}
+
+.btnCercaGratuita {
+    border-radius: 50% !important;
+    width: 30px !important;
+    font-size: 20px !important;
+    height: 30px;
+    margin-top: 6px !important;
+    padding: 0 !important;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+@media (min-width: 980px) {
+    .greyRowLayout {
+        height: 100%;
+        /* 	    background-image: url(../images/sfondoHP.jpg); */
+        /* 	    background-position: top; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .spanPopupRicerca,
+    .spanPopupElenchi {
+        padding-left: 40px;
+    }
+
+    .btnStartElenchiHomePage {
+        min-width: 180px !important;
+    }
+}
+
+@media (max-width: 979px) {
+    .btnStartElenchiHomePage {
+        margin-top: 20px !important;
+    }
+
+    .btnSearchHomePage {
+        margin-top: 20px !important;
+    }
+}
+
+.spanTitleImage {
+    color: #000000;
+    line-height: 49px;
+    font-size: 42px;
+    font-family: "Roboto-Bold", sans-serif;
+    font-weight: 700;
+}
+
+/* #wrapper{ */
+/* 	min-height: 1080px */
+/* } */
+
+.tabCompany,
+.tabList {
+    color: white;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    min-width: 248px !important;
+    height: 34px;
+}
+
+.container-ricerca {
+    min-height: auto;
+}
+
+.currentTab {
+    background: #092650;
+    border-left: 0px solid transparent;
+    position: relative;
+    color: white;
+}
+
+.inputFiltroRicerca {
+    padding-left: 10px !important;
+    padding-right: 45px !important;
+}
+
+.inputFiltroRicerca[readonly] {
+    cursor: pointer !important;
+    background-color: white !important;
+}
+
+.btnCercaGratuita[disabled] {
+    opacity: 1 !important;
+}
+
+.beforeWithOpacity {
+    position: relative;
+}
+
+.beforeWithOpacity::before {
+    opacity: 0.7;
+    position: absolute;
+    content: "";
+    background: #152435;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.inputFiltroRicerca:focus {
+    border-color: transparent !important;
+}
+
+.inputFiltroRicerca::placeholder {
+    font-weight: 700;
+    font-size: 18pt;
+    font-family: "Roboto-Bold", sans-serif;
+    opacity: 0.5;
+    letter-spacing: -0.7px;
+}
+
+.inputFiltroRicercaPopup::placeholder {
+    font-size: 10pt;
+    font-family: "Roboto-Bold", sans-serif;
+    letter-spacing: -0.7px;
+}
+
+.inputFiltroRicercaPopup {
+    margin-bottom: 0 !important;
+}
+
+.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:last-child {
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li {
+    padding: 5px;
+}
+
+.borderBottomLeftRadius15 {
+    border-bottom-left-radius: 15px !important;
+}
+
+.borderBottomLeftRadius10 {
+    border-bottom-left-radius: 10px !important;
+}
+
+.borderBottomLeftRadius0 {
+    border-bottom-left-radius: 0 !important;
+}
+
+@media (min-width: 1280px) {
+    .widthHomePage {
+        width: 90% !important;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1700px) {
+    .heightWithVideo {
+        min-height: 978px !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .labelPopupHP {
+        font-size: 21px !important;
+    }
+}
+
+@media (max-width: 979px) {
+    .inputFiltroRicerca {
+        border-top-right-radius: 0 !important;
+    }
+
+    .inputFiltroRicercaPopup {
+        border-top-right-radius: 10px !important;
+    }
+
+    .spanBtnSearch {
+        margin-top: 10px;
+    }
+
+    .btnHomePage b {
+        bottom: 4px;
+        position: relative;
+    }
+
+    .tabCompany,
+    .tabList {
+        width: 50% !important;
+        min-width: 0px !important;
+        height: 50px !important;
+    }
+
+    .tabCompany {
+        float: left !important;
+    }
+
+    .tabList {
+        float: right !important;
+    }
+
+    .inputFiltroRicerca::placeholder {
+        font-size: 15px !important;
+    }
+
+    .error-message-input-search-hp {
+        bottom: -30px;
+    }
+
+    .greyRowLayout {
+        height: 100%;
+        /* 	    background-image: url(../images/sfondoHPMobile.svg); */
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .spanTitleImage {
+        color: #1c2024;
+        font-size: 35pt;
+    }
+
+    .greyRowLayout {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: #eee;
+        z-index: 0;
+    }
+
+    /*.rowHaiCercato {
+    margin-top: 45px !important
+  }*/
+}
+
+.rowPopupRicerca,
+.rowPopupElenchi {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    /* 	width: 80% !important; */
+    position: absolute;
+    background-size: cover;
+    border: 2px solid #092650;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@media (max-width: 1280px) {
+    .rowPopupRicerca,
+    .rowPopupElenchi {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .rowPopupRicerca,
+    .rowPopupElenchi {
+        border-top-right-radius: 0 !important;
+    }
+
+    .btnHomePage {
+        padding: 0px !important;
+    }
+
+    .btnStartElenchiHomePage {
+        width: 100% !important;
+    }
+}
+
+.spanPopupRicerca,
+.spanPopupElenchi {
+    padding: 20px;
+    padding-left: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.spanPopupRicerca .title,
+.spanPopupElenchi .title {
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.imgPid {
+    position: absolute;
+    width: 40px;
+    right: 7%;
+    top: 10px;
+}
+
+/* .tabCompany:focus, .tabList:focus{ */
+/* 	text-decoration: underline; */
+/* } */
+
+.btnHomePage {
+    border-radius: 5px !important;
+    height: 35px !important;
+}
+
+.spanCrossHP {
+    min-height: 20px !important;
+}
+
+.crossImgHP {
+    cursor: pointer;
+    margin-bottom: 2px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.hrHPElenchi {
+    border-top: 4px solid #092650 !important;
+    margin-left: -18px !important;
+    margin-right: -18px !important;
+    margin-top: 10px !important;
+}
+
+.listCheckInfo ul {
+    list-style-type: none;
+}
+
+.infoElenchi a {
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: url("https://italianbusinessregister.it/o/ricercaimprese/images/checbox_checked_red.svg")
+        no-repeat left center;
+    padding-left: 30px;
+    background-size: 19px;
+    cursor: pointer;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 11pt !important;
+    color: #4b4b4b;
+}
+
+.infoElenchiEmpty a {
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: url("https://italianbusinessregister.it/o/ricercaimprese/images/checbox_empty_red.svg")
+        no-repeat left center;
+    padding-left: 30px;
+    background-size: 17px;
+    cursor: pointer;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 11pt !important;
+    color: #4b4b4b;
+}
+
+/* .infoElenchiEstesi li{ */
+/* 	font-weight: bold; */
+/* 	margin-bottom:10px; */
+/* 	background: url('../images/check-box-empty.svg') no-repeat left top; */
+/* 	padding-left: 30px; */
+/*     background-size: contain; */
+/* } */
+
+.selectHomePage {
+    border-radius: 10px !important;
+    height: 37px !important;
+    font-size: 10pt;
+    font-family: "Roboto-Bold", sans-serif;
+    margin-bottom: 0 !important;
+    padding: 2px 10px !important;
+    position: relative;
+    /*     -webkit-appearance: menulist-button !important; */
+}
+
+.selectDivHP {
+    position: relative;
+}
+
+.selectDivHP:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    padding: 6px 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    /*     color: #092650; */
+}
+
+#videoDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#videoBlock {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+#videoBlock iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.aui .modal.modalErrorHP.fade.in {
+    top: 10%;
+}
+
+@media (min-width: 1360px) {
+    .row-content {
+        min-height: 400px;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 1500px) {
+    .row-intest {
+        min-height: 300px;
+    }
+
+    .row-content {
+        margin-bottom: 0 !important;
+    }
+
+    .row-info {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .row-content {
+        min-height: 800px;
+    }
+}
+
+.row-info {
+    background: white;
+    position: relative;
+    padding-top: 10px;
+}
+
+.tabsRicerca {
+    position: relative;
+    display: flex;
+    width: 100%;
+}

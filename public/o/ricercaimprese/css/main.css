@@ -1,0 +1,773 @@
+@charset "UTF-8";
+/* Migration */
+h3.text-center {
+    margin: 0 auto;
+}
+
+.modal-footer {
+    justify-content: end;
+}
+
+.container-ricerca {
+    padding: 20px;
+    background: white;
+    min-height: 180px;
+    /* 	min-height:auto; */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1px #acb4b9;
+    -webkit-box-shadow: 0 0 1px #acb4b9;
+    -moz-box-shadow: 0 0 1px #acb4b9;
+    display: flex;
+}
+
+.mappaChiusa {
+    display: none;
+}
+
+.divMappa .span12 {
+    position: relative;
+    top: -4rem;
+}
+
+.divMappa .span12 .labelTextField {
+    position: absolute;
+    top: 4rem;
+    width: 22rem;
+}
+
+.map_canvas {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 35;
+}
+
+.mappaAperta {
+    display: block;
+    height: 250px;
+}
+
+.labelPopupHP {
+    font-size: 16pt;
+    font-family: "Roboto-Bold", sans-serif;
+    letter-spacing: -0.7px;
+}
+
+.labelTextField {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 16px !important;
+}
+
+h2.labelTextField {
+    font-size: 36px !important;
+}
+
+h3.labelTextField {
+    font-size: 24px !important;
+}
+
+.span-docs-detail {
+    padding-top: 1rem;
+}
+
+a.addItemDett {
+    padding-bottom: 1.75rem !important;
+}
+
+.container-ricerca .title {
+    font-size: 16pt !important;
+    font-family: "Roboto-Light", sans-serif;
+}
+
+#selectPrv {
+    color: #a9a9a9;
+}
+
+#selectPrv option {
+    color: #555555;
+}
+
+.red {
+    color: #ee2e24;
+}
+
+/* .title{ */
+/* 	font-weight: bold */
+/* } */
+.font25 {
+    font-size: 25px;
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .container-ricerca {
+        border-left: transparent;
+        border-right: transparent;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+.btnLastSearch {
+    margin-right: 10px !important;
+}
+
+.portlet-boundary_ricercaimprese_WAR_ricercaPIportlet_
+    .portlet-content-container,
+.elenco-portlet .portlet-content-container {
+    z-index: 1;
+    position: relative;
+}
+
+@media (min-width: 480px) and (max-width: 979px) {
+    .dataDa,
+    .dataA {
+        width: 50% !important;
+    }
+
+    .dataDa {
+        float: left !important;
+    }
+}
+@media (max-width: 979px) {
+    /* 	.title{ */
+    /* 		font-size: 16px !important */
+    /* 	} */
+    .spanUltimeRicerche {
+        display: table !important;
+    }
+
+    .btnLastSearch {
+        display: table-cell !important;
+        width: auto;
+        margin-right: 5px !important;
+    }
+
+    .btnLastSearch b {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        bottom: 4px;
+        position: relative;
+    }
+
+    .spanType {
+        float: left !important;
+        width: 60px !important;
+    }
+
+    .spanListCriteriaRiep {
+        background: #eee;
+    }
+
+    .rowCriteriaTitle {
+        position: relative;
+        line-height: 35px;
+        border-top: 1px solid #ddd;
+    }
+
+    .spanCriteriaTitle {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .listSearchMobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .showHideCriteria {
+        position: absolute;
+        top: 15px;
+        right: 70px;
+        height: 100%;
+        color: #ee2e24;
+    }
+
+    .listSearchMobile button {
+        margin-top: 0 !important;
+        height: 100% !important;
+    }
+
+    #accordionList {
+        margin-bottom: 0 !important;
+    }
+
+    .paddingLeftRight20 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .marginTop20Mob {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 980px) {
+    /* 	.title{ */
+    /* 		font-size: 21px !important */
+    /* 	} */
+    /* 	.accordion-inner label{ */
+    /* 		font-size: 13px !important */
+    /* 	} */
+}
+@media (min-width: 980px) and (max-width: 1870px) {
+    .dataIscrAAdd,
+    .dataCancA,
+    .dataProcA {
+        margin-left: 120px !important;
+    }
+}
+@media (max-width: 400px) {
+    .suggester-hint {
+        float: left !important;
+    }
+}
+.color-medium-grey {
+    color: #a9a9a9;
+}
+
+.inputFiltroRicerca.uppercase {
+    text-transform: uppercase;
+}
+
+.taglib-captcha {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+.pec .taglib-captcha {
+    margin-top: 0px !important;
+}
+
+.captchaSemplice .field {
+    width: 75px !important;
+}
+
+@media (max-width: 979px) {
+    .btn-captcha {
+        display: inline !important;
+        width: 25% !important;
+        margin-top: 0 !important;
+    }
+
+    .btn-new-search {
+        width: 100%;
+    }
+
+    .spanCriteriaList {
+        padding-bottom: 10px;
+    }
+
+    /* 	.aui .btn { */
+    /*     	padding: 7px 19px; */
+    /* 	} */
+    /* 	.infoCriteria{ */
+    /* 		display: none; */
+    /* 	} */
+}
+.btn-captcha {
+    margin-left: 2% !important;
+    width: auto !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+}
+
+.spanVerificaKO {
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+    float: left !important;
+}
+
+@media (min-width: 980px) {
+    .captchaSemplice .alert-error {
+        display: inline !important;
+    }
+
+    .captchaSemplice {
+        margin-top: 20px;
+        padding-left: 13px;
+        width: 120% !important;
+    }
+
+    .text-captcha {
+        position: relative;
+        top: 20px;
+    }
+
+    .margin-top-30-no-mobile {
+        margin-top: 30px;
+    }
+}
+.captchaSemplice .alert-error {
+    width: 32% !important;
+}
+
+.postaCertificata,
+.captchaClass,
+.spanTestDettaglioPec,
+.spanInfoAnag {
+    margin-left: 0 !important;
+}
+
+.dl-dettaglio dt,
+.dl-dettaglio dd {
+    margin-bottom: 7px;
+}
+
+.dl-dettaglio dt {
+    width: 164px !important;
+}
+
+.limitaDimensioneRic {
+    word-break: break-all;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+        max-width: 497px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1365px) {
+    .ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+        max-width: 520px;
+    }
+}
+@media (min-width: 1366px) {
+    .ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+        max-width: 620px;
+    }
+}
+@media (max-width: 767px) {
+    .ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+        overflow-y: scroll;
+        max-width: 75%;
+        max-height: 100px !important;
+    }
+}
+.width100 {
+    width: 100%;
+}
+
+.dimLimit a {
+    color: #ee2e24;
+}
+
+.tabCompany,
+.tabList {
+    padding: 0;
+    padding-left: 20px;
+    border-bottom: transparent;
+    cursor: pointer;
+    width: auto !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-right: 20px !important;
+    background: #555555;
+    min-height: 20px !important;
+}
+
+.tabList {
+    margin-left: 0 !important;
+}
+
+.moreInfo {
+    cursor: pointer;
+}
+
+.moreInfoIcon {
+    border: 1px solid #ee2e24;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #ee2e24;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.radioTipoElenco .radio {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 16px !important;
+    color: #4b4b4b;
+    font-weight: 700;
+}
+
+.radio.inline {
+    padding-top: 0 !important;
+}
+
+input[type="radio"]:after {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    top: 0px;
+    left: -2px;
+    position: relative;
+    background-color: white;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #d1d3d1;
+}
+
+input[type="radio"]:checked:after {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    top: 1px;
+    left: -2px;
+    position: relative;
+    background-color: #ee2e24;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #ee2e24;
+}
+
+.accordion-group {
+    margin-bottom: -1px !important;
+}
+
+.accordion-toggle.collapsed {
+    color: #000000;
+}
+
+.accordion-toggle:not(.collapsed) {
+    color: #ee2e24;
+    border-bottom: 2px solid;
+}
+
+.accordion-toggle:not(.collapsed) .fa-angle-down,
+.accordion-toggle.collapsed .fa-angle-up {
+    display: none;
+}
+
+.accordion-toggle:not(.collapsed) .fa-angle-up,
+.accordion-toggle.collapsed .fa-angle-down {
+    display: block;
+}
+
+.float-right {
+    float: right;
+}
+
+.rowCriteriaTitle {
+    border-bottom: 1px solid #ddd;
+}
+
+.checkElenco {
+    margin: -2px 3px 0 !important;
+}
+
+.accordion-inner {
+    padding: 20px 15px !important;
+}
+
+.labelcheck {
+    display: inline !important;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+/* custom checkboxes */
+.custom-checkbox > [type="checkbox"],
+.custom-checkbox > label {
+    margin-bottom: 0px !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-checkbox > [type="checkbox"]:not(:checked),
+.custom-checkbox > [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.custom-checkbox > [type="checkbox"]:not(:checked) + label,
+.custom-checkbox > [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.custom-checkbox > [type="checkbox"]:not(:checked) + label:before,
+.custom-checkbox > [type="checkbox"]:checked + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.custom-checkbox > [type="checkbox"]:not(:checked) + label:after,
+.custom-checkbox > [type="checkbox"]:checked + label:after {
+    font: normal normal normal 14px/1 "FontAwesome";
+    content: "\f00c";
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    left: 2px;
+    color: #ee2e24;
+    xtransition: all 0.2s;
+}
+
+.custom-checkbox > [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.custom-checkbox > [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.custom-checkbox > [type="checkbox"][data-indeterminate] + label:after,
+.custom-checkbox > [type="checkbox"][data-indeterminate] + label:after {
+    content: "−";
+    left: 2px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.custom-checkbox > [type="checkbox"]:disabled:not(:checked) + label:before,
+.custom-checkbox > [type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    cursor: not-allowed;
+    opacity: 1;
+    color: #dadada;
+}
+
+.custom-checkbox > [type="checkbox"]:disabled:checked + label:after {
+    color: #dadada;
+    cursor: not-allowed;
+}
+
+.custom-checkbox > [type="checkbox"]:disabled + label {
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.custom-checkbox > [type="checkbox"]:checked:focus + label:before,
+.custom-checkbox > [type="checkbox"]:not(:checked):focus + label:before {
+    border: 1px solid #ddd;
+    box-shadow:
+        inset 0 1px 1px rgba(0, 0, 0, 0.075),
+        0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.custom-checkbox > label:hover:before {
+    border: 1px solid #ddd !important;
+}
+
+.custom-checkbox
+    > [type="checkbox"]:disabled:not(:checked)
+    + label:hover:before,
+.custom-checkbox > [type="checkbox"]:disabled:checked + label:hover:before {
+    border: 1px solid #e4e4e4 !important;
+}
+
+.rowCriteriaList {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .custom-checkbox {
+        width: auto !important;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .btn-small b {
+        font-size: 11px !important;
+    }
+}
+.delete-criteria {
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.mappaItalia {
+    position: absolute;
+    top: 60px;
+    /*     left: 80px; */
+}
+
+@media (min-width: 1280px) {
+    .mappaItalia {
+        left: 80px;
+    }
+}
+.divMappa {
+    min-height: 370px !important;
+}
+
+@media (min-width: 979px) {
+    .boxContainerAttivita {
+        height: 230px;
+    }
+}
+.boxContainerAttivita {
+    background: white;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow-y: scroll;
+    height: 260px;
+    border: 1px solid #ddd;
+}
+
+.boxContainerAttivita .boxContainerAttivitaInner {
+    padding: 5px;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+
+.minHeight10 {
+    min-height: 10px !important;
+}
+
+.boxContainerAttivita .boxContainerAttivitaInner ul {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.boxContainerAttivita .boxContainerAttivitaInner ul li {
+    padding: 0 0 5px 5px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 18px;
+    text-transform: inherit;
+    position: relative;
+}
+
+.boxContainerAttivita .boxContainerAttivitaInner ul li .contentLi {
+    margin-right: 20px;
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.boxContainerAttivita .boxContainerAttivitaInner ul li .codiceIstatAttivita {
+    display: block;
+}
+
+.boxContainerAttivita .boxContainerAttivitaInner ul li .checkBox {
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: 5px;
+}
+
+@media (max-width: 767px) {
+    .rowHaiCercatoMobile {
+        background: #eee;
+        margin-left: -30%;
+        padding-left: 30%;
+        padding-right: 30%;
+        min-height: auto;
+    }
+
+    .spanListCriteria {
+        margin-left: -20px !important;
+        width: 100vw !important;
+    }
+
+    .container-ricerca {
+        box-shadow: none;
+        border-bottom: transparent;
+    }
+}
+.aui .accordion-heading .accordion-toggle {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .rowHaiCercatoMobile {
+        background: #eee;
+        min-height: auto;
+    }
+
+    .spanSearchMobile,
+    .spanBlMobile {
+        padding-left: 20px;
+    }
+}
+.modalHowTo .modal-body {
+    padding: 30px;
+    max-height: -webkit-fill-available;
+}
+
+.badgePrezzo {
+    background: white !important;
+    color: #ee2e24 !important;
+    font-size: 16px !important;
+}
+
+.bPrezzo {
+    max-height: 20px !important;
+    padding: 2px 10px !important;
+}
+
+@media (max-width: 400px) {
+    .bPrezzo {
+        max-height: 25px !important;
+        margin-bottom: 10px !important;
+    }
+}
+@media (min-width: 980px) {
+    .text-right-no-mobile {
+        text-align: right;
+    }
+}
+span.moreInfoIconNew {
+    background: url("https://italianbusinessregister.it/o/ricercaimprese/images/info.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 35px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+span.moreInfoIconNew:hover {
+    background: url("https://italianbusinessregister.it/o/ricercaimprese/images/info-hover.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 35px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
