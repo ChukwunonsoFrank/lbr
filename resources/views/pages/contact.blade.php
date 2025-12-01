@@ -122,7 +122,7 @@
         })();
     </script>
 
-    <title>Home | Luxembourg Business Registers</title>
+    <title>Search | Luxembourg Business Registers</title>
 
     <meta content="initial-scale=1.0, width=device-width" name="viewport" />
     <meta name="google-site-verification" content="VsURJHltjleCBSQvdT5SabQvY_InV4_N1CCibx8gFk0" />
@@ -181,8 +181,9 @@
     <link
         href="../o/mysearches/css/maina7ba.css?browserId=other&amp;themeId=PortaleInternazionale_WAR_PortaleInternazionaletheme&amp;languageId=en_US&amp;t=1721043664000"
         rel="stylesheet" type="text/css" data-senna-track="temporary" id="af1dd7e9" />
-    <link href="{{ asset('o/ricercaimprese/css/main6831.css') }}" rel="stylesheet" type="text/css"
-        data-senna-track="temporary" id="ff75e81a" />
+    <link
+        href="../o/ricercaimprese/css/main6831.css?browserId=other&amp;themeId=PortaleInternazionale_WAR_PortaleInternazionaletheme&amp;languageId=en_US&amp;t=1762263350000"
+        rel="stylesheet" type="text/css" data-senna-track="temporary" id="ff75e81a" />
 
     <script data-senna-track="temporary" type="text/javascript">
         // <![CDATA[
@@ -1618,149 +1619,8 @@
 
                         <div class="portlet-column row-fluid width70auto" id="column-2">
                             <div class="portlet-dropzone portlet-column-content portlet-column-content-only"
-                                id="layout-column_column-2">
-
-                                <div class="portlet-boundary portlet-boundary_ricercaimprese_WAR_ricercaPIportlet_  portlet-static portlet-static-end portlet-borderless  "
-                                    id="p_p_id_ricercaimprese_WAR_ricercaPIportlet_">
-                                    <span id="p_ricercaimprese_WAR_ricercaPIportlet"></span>
-
-                                    <section class="portlet" id="portlet_ricercaimprese_WAR_ricercaPIportlet">
-
-                                        <div class="portlet-content">
-
-                                            <div class="autofit-float autofit-row portlet-header">
-
-                                                <div class="autofit-col autofit-col-expand">
-                                                    <h5 class="portlet-title-text">PI - Ricerca Imprese Gratuita</h5>
-                                                </div>
-
-                                            </div>
-
-                                            <div class=" portlet-content-container">
-
-                                                <div class="portlet-body">
-
-                                                    <link rel="stylesheet"
-                                                        href="../o/ricercaimprese/css/homePage.css" />
-
-
-                                                    <script src="../../www.google.com/recaptcha/enterprise4481.js?render=6LfKBJ4qAAAAAKvP_8mDvmi8kDPBRDk6bYU8aCAe" async
-                                                        defer></script>
-
-
-
-
-
-
-                                                    <div class="widthHomePage">
-
-
-                                                        <div class="row-fluid rowTitleImage ">
-                                                            <h1>
-                                                                <div class="span11 spanTitleImage">
-                                                                    Luxembourg Business Registers
-                                                                </div>
-                                                            </h1>
-
-                                                            <div class="span12"
-                                                                style="margin-left: 0 !important; color: rgb(82, 82, 82);">
-                                                                <span style="font-size:22px;"><b>The
-                                                                        official website dedicated to the procedures for
-                                                                        companies and associations with the
-                                                                        RCS, RBE and RESA</b></span>
-                                                            </div>
-
-                                                        </div>
-
-
-
-                                                        <form action="{{ route('search') }}" class="form marginTop20"
-                                                            method="post" style="margin-bottom:0" id="searchForm">
-                                                            @csrf
-                                                            <div class="boxCompany ">
-
-                                                                <div class="span12"
-                                                                    style="margin-left:auto;min-height: 0;">
-
-                                                                    <div
-                                                                        class="span12 spanPopupRicerca rowPopupRicerca">
-                                                                        <div class="row-fluid marginTop10">
-                                                                            @if (session()->has('error'))
-                                                                                <div style="padding-bottom: 1rem;">
-                                                                                    <div class="alert alert-danger">
-                                                                                        {{ session('error') }}
-                                                                                    </div>
-                                                                                </div>
-                                                                            @endif
-                                                                            <div class=""
-                                                                                style="text-align: center;">
-                                                                                <label class="labelTextField "
-                                                                                    for="inputSearchField">
-                                                                                    <b>Search for information about a
-                                                                                        company or association</b>
-                                                                                </label>
-                                                                                <span>
-                                                                                    <input id="inputSearchField"
-                                                                                        name="query" type="text"
-                                                                                        class="inputFiltroRicerca inputFiltroRicercaPopup width100 inputWithDeleteBlack"
-                                                                                        style="border-radius: 10px ; font-size: 10pt !important; font-family: 'Roboto-Regular',sans-serif; height: 35px !important"
-                                                                                        placeholder="Enter a trade name or RCS number (B123456)"
-                                                                                        autocomplete="off"
-                                                                                        tabindex="0" />
-
-                                                                                </span>
-                                                                            </div>
-                                                                            <div style="margin-left: 0 !important;"
-                                                                                class="text-center spanBtnSearch">
-                                                                                <label
-                                                                                    class="hidden-phone hidden-tablet">&nbsp;</label>
-
-                                                                                <button id="btnSearchHomePage"
-                                                                                    type="submit"
-                                                                                    class="btn btn-primary buttonCerca btnSearchHomePage btnHomePage width100">
-                                                                                    Search
-                                                                                </button>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-
-                                                        </form>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </section>
-
-
-
-
-
-
-
-
-
-
-
-                                </div>
-
-
-
-
-
-
-                            </div>
+                                id="layout-column_column-2"></div>
                         </div>
-                        <div class="greyRowLayout">
-                            <div id="layer"></div>
-                        </div>
-
-
                     </div>
                     <div class="portlet-layout row-fluid row-content">
 
@@ -1806,10 +1666,10 @@
 
 
 
-                                        <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-borderless portlet-journal-content "
-                                            id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_U6uYUFUV4RXV_">
+                                        <div class="portlet-boundary portlet-boundary_assistenza_WAR_PIassistenzaportlet_  portlet-static portlet-static-end portlet-decorate  "
+                                            id="p_p_id_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg_">
                                             <span
-                                                id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_U6uYUFUV4RXV"></span>
+                                                id="p_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg"></span>
 
 
 
@@ -1856,7 +1716,7 @@
 
 
                                             <section class="portlet"
-                                                id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_U6uYUFUV4RXV">
+                                                id="portlet_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg">
 
 
                                                 <div class="portlet-content">
@@ -1864,19 +1724,9 @@
                                                     <div class="autofit-float autofit-row portlet-header">
 
                                                         <div class="autofit-col autofit-col-expand">
-                                                            <h5 class="portlet-title-text">pulsantoni home page</h5>
+                                                            <h5 class="portlet-title-text">PI - Assistenza</h5>
                                                         </div>
 
-                                                        <div class="autofit-col autofit-col-end">
-                                                            <div class="autofit-section">
-                                                                <div class="visible-interaction">
-
-
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
 
 
@@ -1975,865 +1825,215 @@
 
 
 
+                                                            <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfKBJ4qAAAAAKvP_8mDvmi8kDPBRDk6bYU8aCAe"></script>
 
 
 
 
 
 
+                                                            <div class="row-fluid rowHaiCercato">
+                                                                <div class="span12 spanText">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                            <div class=""
-                                                                data-fragments-editor-item-id="20109-90533"
-                                                                data-fragments-editor-item-type="fragments-editor-mapped-item">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <div class="journal-content-article "
-                                                                    data-analytics-asset-id="90531"
-                                                                    data-analytics-asset-title="pulsantoni home page"
-                                                                    data-analytics-asset-type="web-content">
-
-
-                                                                    <div class="row-fluid widthHomePage">
-                                                                        <div class="span4 spanPulsanteHP text-center">
-                                                                            <div class="row-fluid">
-                                                                                <div class="span12">
-                                                                                    <a href="company-report.html"
-                                                                                        onclick="blockScreen(); dataLayer.push({'event':'boxHP', 'action':'Company Report'});"
-                                                                                        class="linkPulsanti">
-                                                                                        <div
-                                                                                            class="row-fluid marginTop20">
-                                                                                            <div class="span12">
-                                                                                                <img src="https://italianbusinessregister.it/documents/20184/90449/company+profile.svg/fb2be0f0-f060-400d-b51d-d519a669b67a"
-                                                                                                    alt="Company Report"
-                                                                                                    class="imgPulsante" />
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="row-fluid rowTitoloPulsante">
-                                                                                            <div
-                                                                                                class="span12 spanTitoloPulsante">
-                                                                                                Company Report
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="span4 spanPulsanteHP text-center">
-                                                                            <div class="row-fluid">
-                                                                                <div class="span12">
-                                                                                    <a href="annual-accounts.html"
-                                                                                        onclick="blockScreen(); dataLayer.push({'event':'boxHP', 'action':'Annual Accounts'});"
-                                                                                        class="linkPulsanti">
-                                                                                        <div
-                                                                                            class="row-fluid marginTop20">
-                                                                                            <div class="span12">
-                                                                                                <img src="https://italianbusinessregister.it/documents/20184/90449/annual+account.svg/6af26cd5-549b-4704-bcac-13ceb86153f4"
-                                                                                                    alt="Annual Accounts"
-                                                                                                    class="imgPulsante" />
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="row-fluid rowTitoloPulsante">
-                                                                                            <div
-                                                                                                class="span12 spanTitoloPulsante">
-                                                                                                Annual Accounts
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="span4 spanPulsanteHP text-center">
-                                                                            <div class="row-fluid">
-                                                                                <div class="span12">
-                                                                                    <a href="lists-of-companies.html"
-                                                                                        onclick="blockScreen(); dataLayer.push({'event':'boxHP', 'action':'Lists of Companies'});"
-                                                                                        class="linkPulsanti">
-                                                                                        <div
-                                                                                            class="row-fluid marginTop20">
-                                                                                            <div class="span12">
-                                                                                                <img src="https://italianbusinessregister.it/documents/20184/90449/company+dossier.svg/7716bf6f-131a-4b44-b932-ac1391aa3082"
-                                                                                                    alt="Lists of Companies"
-                                                                                                    class="imgPulsante" />
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="row-fluid rowTitoloPulsante">
-                                                                                            <div
-                                                                                                class="span12 spanTitoloPulsante">
-                                                                                                Lists of Companies
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <style>
-                                                                        .spanPulsanteHP {
-                                                                            background: #092650;
-                                                                            color: white;
-                                                                            font-size: 20px;
-                                                                        }
-
-                                                                        .imgPulsante {
-                                                                            width: 90px;
-                                                                            height: 90px !important
-                                                                        }
-
-                                                                        .linkPulsanti {
-                                                                            color: white !important
-                                                                        }
-
-                                                                        .spanTitoloPulsante {
-                                                                            font-size: 25px;
-                                                                            font-weight: bold;
-                                                                        }
-
-                                                                        .rowTitoloPulsante {
-                                                                            margin-top: 20px
-                                                                        }
-
-                                                                        @media(max-width:979px) {
-                                                                            .spanPulsanteHP {
-                                                                                margin-top: 20px
-                                                                            }
-                                                                        }
-                                                                    </style>
-
-
-                                                                </div>
-
-
-
-
-
-
-
-                                                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </section>
-
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-
-
-
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="portlet-layout row-fluid row-info">
-
-                        <div class="portlet-column row-fluid width70auto">
-                            <div class="row-fluid" id="column-4">
-                                <div class="span12">
-                                    <div class="portlet-dropzone portlet-column-content portlet-column-content-only"
-                                        id="layout-column_column-4">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-borderless portlet-journal-content "
-                                            id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5NhCpd1qi2hX_">
-                                            <span
-                                                id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5NhCpd1qi2hX"></span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <section class="portlet"
-                                                id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5NhCpd1qi2hX">
-
-
-                                                <div class="portlet-content">
-
-                                                    <div class="autofit-float autofit-row portlet-header">
-
-                                                        <div class="autofit-col autofit-col-expand">
-                                                            <h5 class="portlet-title-text">hp</h5>
-                                                        </div>
-
-                                                        <div class="autofit-col autofit-col-end">
-                                                            <div class="autofit-section">
-                                                                <div class="visible-interaction">
-
-
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div id="about" class=" portlet-content-container">
-                                                        <div class="portlet-body">
-                                                            <div class=""
-                                                                data-fragments-editor-item-id="20109-676418"
-                                                                data-fragments-editor-item-type="fragments-editor-mapped-item">
-                                                                <div class="journal-content-article "
-                                                                    data-analytics-asset-id="676416"
-                                                                    data-analytics-asset-title="hp"
-                                                                    data-analytics-asset-type="web-content">
-                                                                    <div class="row-fluid width70auto">
+                                                                    <div class="row-fluid marginTop10"
+                                                                        style="margin-top: 2rem;">
                                                                         <div class="span12">
-                                                                            <div class="row-fluid"
-                                                                                style="text-align: center;">
-                                                                                <div class="span12"
-                                                                                    style="color: rgb(82, 82, 82);">
-                                                                                    <span style="font-size:22px;"><b>Welcome
-                                                                                            to the website of LUXEMBOURG
-                                                                                            BUSINESS
-                                                                                            REGISTERS.</b></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="row-fluid"
-                                                                                style="text-align: center;">
-                                                                                <div class="span12"
-                                                                                    style="color: rgb(82, 82, 82);">
-                                                                                    <span
-                                                                                        style="font-size:18px;line-height: 21px;">
-                                                                                        LUXEMBOURG BUSINESS REGISTERS
-                                                                                        (LBR) is an economic interest
-                                                                                        grouping established by the
-                                                                                        State, the Chamber of Commerce
-                                                                                        (Chambre de Commerce) and the
-                                                                                        Chamber of Crafts (Chambre des
-                                                                                        Métiers) of the Grand Duchy of
-                                                                                        Luxembourg. It's mission is to
-                                                                                        manage and to develop the
-                                                                                        different registers it may be
-                                                                                        entrusted with by law, under the
-                                                                                        authority of the Minister of
-                                                                                        Justice.
+                                                                            <span>
+                                                                                <a href="#" onclick="goToHome()"
+                                                                                    style="color: #1c2024;font-size: 16px;">
+                                                                                    <img
+                                                                                        src="o/PortaleInternazionale-theme/images/ri/back.svg">
 
-                                                                                        Since 23 January 2003, LBR
-                                                                                        ensures the management of the
-                                                                                        Trade and Companies Register.
-
-                                                                                        Since 1 June 2016, LBR is in
-                                                                                        charge of the electronic central
-                                                                                        platform of official
-                                                                                        publications concerning
-                                                                                        companies and associations, the
-                                                                                        "Recueil électronique des
-                                                                                        sociétés et associations"
-                                                                                        (RESA).
-
-                                                                                        The law of 13th of January 2019
-                                                                                        entrusted the LBR with the
-                                                                                        management of the Register of
-                                                                                        Beneficial Owners.
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
+                                                                                    Home
+                                                                                </a> / <b>Contact us</b>
+                                                                            </span>
                                                                         </div>
                                                                     </div>
-                                                                    <style type="text/css">
-                                                                        .rwd-video {
-                                                                            height: 0;
-                                                                            overflow: hidden;
-                                                                            padding-top: 30px;
-                                                                            margin-bottom: 30px;
-                                                                            position: relative;
-                                                                            padding-bottom: 25%
-                                                                        }
+                                                                    <div class="row-fluid rowTitleDetail"
+                                                                        style="margin-top: 30px">
+                                                                        <div class="span12 spanHaiCercato">
+                                                                            <h2 class="color-black"
+                                                                                style="position:relative"><b
+                                                                                    class="denom">Reach out to us</b>
 
-                                                                        .rwd-video iframe,
-                                                                        .rwd-video object,
-                                                                        .rwd-video embed {
-                                                                            height: 100%;
-                                                                            left: 0;
-                                                                            position: absolute;
-                                                                            top: 0;
-                                                                            width: 100%;
-                                                                        }
+                                                                            </h2>
+                                                                        </div>
 
-                                                                        @media(max-width:979px) {
-                                                                            .rwd-video {
-                                                                                padding-bottom: 50%
-                                                                            }
-                                                                        }
-                                                                    </style>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <form action="{{ route('sendContactRequest') }}"
+                                                                class="form inviaRichiestaForm"
+                                                                id="_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg_inviaRichiestaForm"
+                                                                method="post">
+                                                                @csrf
+
+                                                                <div aria-label="" class="input-container"
+                                                                    role="group">
+                                                                    <div class="row-fluid marginTop20">
+                                                                        <div class="span8">
+                                                                            <div class="row-fluid box-info box-shadow"
+                                                                                style="padding-top:20px;margin-top:20px"
+                                                                                align="left" dir="ltr">
+                                                                                @if (session()->has('error'))
+                                                                                    <div style="padding-bottom: 1rem;">
+                                                                                        <div
+                                                                                            class="alert alert-danger">
+                                                                                            {{ session('error') }}
+                                                                                        </div>
+                                                                                    </div>
+                                                                                @endif
+                                                                                @if (session()->has('success'))
+                                                                                    <div style="padding-bottom: 1rem;">
+                                                                                        <div
+                                                                                            class="alert alert-success">
+                                                                                            {{ session('success') }}
+                                                                                        </div>
+                                                                                    </div>
+                                                                                @endif
+                                                                                <div class="row-form">
+                                                                                    <div class="row-fluid">
+                                                                                        <div class="span12">
+
+                                                                                            <div
+                                                                                                class="span4 spanForm">
+                                                                                                <label
+                                                                                                    class="control-label"
+                                                                                                    for="cognome">Last
+                                                                                                    name
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="last_name"
+                                                                                                        placeholder="Last name"
+                                                                                                        type="text">
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="span4 spanForm">
+                                                                                                <label
+                                                                                                    class="control-label"
+                                                                                                    for="nome">First
+                                                                                                    name
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="first_name"
+                                                                                                        placeholder="First name"
+                                                                                                        type="text">
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="span4 spanForm">
+                                                                                                <label
+                                                                                                    class="control-label"
+                                                                                                    for="email">Email
+                                                                                                    address
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="email_address"
+                                                                                                        placeholder="Email address"
+                                                                                                        type="text">
+
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <div class="span4 spanForm"
+                                                                                                style="margin-left: 0 !important;">
+                                                                                                <label
+                                                                                                    class="control-label"
+                                                                                                    for="email">Telephone
+                                                                                                    number
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="telephone_number"
+                                                                                                        placeholder="Telephone number"
+                                                                                                        type="text">
+
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <div class="span12 spanForm"
+                                                                                                style="max-height: 115px; margin-left: 0 !important;">
+                                                                                                <label
+                                                                                                    class="control-label"
+                                                                                                    for="testoMessaggio">Please
+                                                                                                    provide your request
+                                                                                                    or report a
+                                                                                                    malfunction
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+
+                                                                                                    <textarea class="field formField form-control" name="message" placeholder="Message"
+                                                                                                        style="width:96%!important; height: 150px; resize:none"></textarea>
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="row-fluid"
+                                                                                        style="margin-top: 100px;">
+                                                                                        <div
+                                                                                            class="span12 text-center">
+
+                                                                                            <input
+                                                                                                class="field captchaResp form-control"
+                                                                                                id="_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg_captchaResp"
+                                                                                                name="_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg_captchaResp"
+                                                                                                type="hidden"
+                                                                                                value="">
+
+                                                                                            <button
+                                                                                                class="btn btn btnSubmit btn-primary btn-large"
+                                                                                                type="submit">
+                                                                                                <span
+                                                                                                    class="lfr-btn-label">SEND</span>
+                                                                                            </button>
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+
                                                                 </div>
 
-                                                            </div>
+                                                            </form>
 
                                                         </div>
 
                                                     </div>
 
-                                                </div>
-                                            </section>
-
-                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content "
-                                            id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_RYBVtPIRqLNq_">
-                                            <span
-                                                id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_RYBVtPIRqLNq"></span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <section class="portlet"
-                                                id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_RYBVtPIRqLNq">
-
-
-                                                <div class="portlet-content">
-
-                                                    <div class="autofit-float autofit-row portlet-header">
-
-                                                        <div class="autofit-col autofit-col-expand">
-                                                            <h5 class="portlet-title-text">banner_id_lei</h5>
-                                                        </div>
-
-                                                        <div class="autofit-col autofit-col-end">
-                                                            <div class="autofit-section">
-                                                                <div class="visible-interaction">
-
-
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class=" portlet-content-container">
-
-
-
-                                                        <div class="portlet-body">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                            <div class=""
-                                                                data-fragments-editor-item-id="20109-9119919"
-                                                                data-fragments-editor-item-type="fragments-editor-mapped-item">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <div class="journal-content-article "
-                                                                    data-analytics-asset-id="9119917"
-                                                                    data-analytics-asset-title="banner_id_lei"
-                                                                    data-analytics-asset-type="web-content">
-
-
-                                                                    <style type="text/css">
-                                                                        .d-flex {
-                                                                            display: flex;
-                                                                            flex-wrap: wrap;
-                                                                        }
-
-                                                                        .col1 {
-                                                                            flex: 0.5;
-                                                                        }
-
-                                                                        .col2 {
-                                                                            flex: 1;
-                                                                        }
-
-                                                                        .mt-2 {
-                                                                            margin-top: 2rem !important;
-                                                                        }
-
-                                                                        .mt-5 {
-                                                                            margin-top: 5rem !important;
-                                                                        }
-
-                                                                        .padding {
-                                                                            padding: 2rem 5rem;
-                                                                        }
-
-                                                                        p {
-                                                                            line-height: 25px !important;
-                                                                        }
-
-                                                                        .align-items-center {
-                                                                            text-align: justify;
-                                                                            align-content: center;
-                                                                        }
-
-                                                                        .justify-content-end {
-                                                                            justify-content: end !important;
-                                                                        }
-
-                                                                        .border-blue {
-                                                                            border: 1px solid #2769B5;
-                                                                        }
-
-                                                                        #banner_idLei {
-                                                                            margin-left: -10vw;
-                                                                            padding-left: 10vw;
-                                                                            padding-right: 10vw;
-                                                                            margin-right: -10vw;
-                                                                        }
-
-                                                                        .imgHeaderBusinessHomePage {
-                                                                            width: 50%;
-                                                                        }
-
-                                                                        .text-white {
-                                                                            color: white !important;
-                                                                        }
-
-                                                                        .textTitleArea {
-                                                                            font-size: 1.8em;
-                                                                            margin-bottom: 12px !important;
-                                                                        }
-
-                                                                        .btn-water-green,
-                                                                        .btn-water-green:active,
-                                                                        .btn-water-green:hover {
-                                                                            display: inline-block;
-                                                                            font-weight: 600;
-                                                                            text-align: center;
-                                                                            text-decoration: none !important;
-                                                                            white-space: nowrap;
-                                                                            vertical-align: middle;
-                                                                            font-size: 1em;
-                                                                            line-height: 35px;
-                                                                            border-radius: 0;
-                                                                            color: #3D6A6C !important;
-                                                                            background-color: white;
-                                                                            border: 2px solid #3D6A6C;
-                                                                            width: 200px;
-                                                                            cursor: pointer;
-                                                                        }
-
-                                                                        .btn-water-green:hover {
-                                                                            background-color: #3D6A6C;
-                                                                            color: white !important;
-                                                                        }
-
-                                                                        .btn-water-green:active {
-                                                                            box-shadow: 0 0 5px -1px #666;
-                                                                        }
-
-                                                                        .home-page-id-lei-text {
-                                                                            margin-right: -10vw;
-                                                                            text-align: right;
-                                                                            background-color: #30898D;
-                                                                            clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
-                                                                        }
-
-                                                                        @media (max-width : 992px) {
-                                                                            .d-flex {
-                                                                                display: inline;
-                                                                            }
-
-                                                                            .home-page-id-lei-text {
-                                                                                margin-right: unset;
-                                                                                padding-left: 3rem !important;
-                                                                                padding-right: 3rem !important;
-                                                                                text-align: center;
-                                                                                clip-path: none !important;
-                                                                            }
-
-                                                                            .border-blue {
-                                                                                border: none;
-                                                                            }
-                                                                        }
-                                                                    </style>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </section>
 
@@ -2860,7 +2060,6 @@
 
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -2924,22 +2123,155 @@
             </ul>
         </nav>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <script type="text/javascript"></script>
         <script></script>
 
+
+
+
+
+
+
+
+
+
+
         <script type="text/javascript">
             // <![CDATA[
+
+
+
             Liferay.currentURL = '\x2fen\x2f';
             Liferay.currentURLEncoded = '\x252Fen\x252F';
 
             // ]]>
         </script>
 
+
+
+
+
+
+
         <script type="text/javascript">
             // <![CDATA[
 
+
+
+
+
+
+
             // ]]>
         </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <script type="text/javascript">
             (function() {

@@ -1607,11 +1607,66 @@
         <div class="container-fluid" id="wrapper">
             <div id="content">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <style type="text/css">
                     .master-layout-fragment .portlet-header {
                         display: none;
                     }
                 </style>
+
+
 
                 <div class="rilayoutbase" id="main-content" role="main">
                     <div class="portlet-layout row-fluid row-intest">
@@ -1620,11 +1675,92 @@
                             <div class="portlet-dropzone portlet-column-content portlet-column-content-only"
                                 id="layout-column_column-2">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 <div class="portlet-boundary portlet-boundary_ricercaimprese_WAR_ricercaPIportlet_  portlet-static portlet-static-end portlet-borderless  "
                                     id="p_p_id_ricercaimprese_WAR_ricercaPIportlet_">
                                     <span id="p_ricercaimprese_WAR_ricercaPIportlet"></span>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     <section class="portlet" id="portlet_ricercaimprese_WAR_ricercaPIportlet">
+
 
                                         <div class="portlet-content">
 
@@ -1636,9 +1772,129 @@
 
                                             </div>
 
+
                                             <div class=" portlet-content-container">
 
+
+
                                                 <div class="portlet-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                                     <link rel="stylesheet"
                                                         href="../o/ricercaimprese/css/homePage.css" />
@@ -1662,17 +1918,7 @@
                                                                 </div>
                                                             </h1>
 
-                                                            <div class="span12"
-                                                                style="margin-left: 0 !important; color: rgb(82, 82, 82);">
-                                                                <span style="font-size:22px;"><b>The
-                                                                        official website dedicated to the procedures for
-                                                                        companies and associations with the
-                                                                        RCS, RBE and RESA</b></span>
-                                                            </div>
-
                                                         </div>
-
-
 
                                                         <form action="{{ route('search') }}" class="form marginTop20"
                                                             method="post" style="margin-bottom:0" id="searchForm">
@@ -1729,7 +1975,9 @@
                                                             </div>
 
                                                         </form>
+
                                                     </div>
+
                                                 </div>
 
                                             </div>
@@ -1756,1116 +2004,12 @@
 
                             </div>
                         </div>
-                        <div class="greyRowLayout">
-                            <div id="layer"></div>
-                        </div>
-
-
                     </div>
-                    <div class="portlet-layout row-fluid row-content">
-
-                        <div class="portlet-column row-fluid width70auto">
-                            <div class="row-fluid" id="column-3">
-                                <div class="span12">
-                                    <div class="portlet-dropzone portlet-column-content portlet-column-content-only"
-                                        id="layout-column_column-3">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-borderless portlet-journal-content "
-                                            id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_U6uYUFUV4RXV_">
-                                            <span
-                                                id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_U6uYUFUV4RXV"></span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <section class="portlet"
-                                                id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_U6uYUFUV4RXV">
-
-
-                                                <div class="portlet-content">
-
-                                                    <div class="autofit-float autofit-row portlet-header">
-
-                                                        <div class="autofit-col autofit-col-expand">
-                                                            <h5 class="portlet-title-text">pulsantoni home page</h5>
-                                                        </div>
-
-                                                        <div class="autofit-col autofit-col-end">
-                                                            <div class="autofit-section">
-                                                                <div class="visible-interaction">
-
-
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class=" portlet-content-container">
-
-
-
-                                                        <div class="portlet-body">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                            <div class=""
-                                                                data-fragments-editor-item-id="20109-90533"
-                                                                data-fragments-editor-item-type="fragments-editor-mapped-item">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <div class="journal-content-article "
-                                                                    data-analytics-asset-id="90531"
-                                                                    data-analytics-asset-title="pulsantoni home page"
-                                                                    data-analytics-asset-type="web-content">
-
-
-                                                                    <div class="row-fluid widthHomePage">
-                                                                        <div class="span4 spanPulsanteHP text-center">
-                                                                            <div class="row-fluid">
-                                                                                <div class="span12">
-                                                                                    <a href="company-report.html"
-                                                                                        onclick="blockScreen(); dataLayer.push({'event':'boxHP', 'action':'Company Report'});"
-                                                                                        class="linkPulsanti">
-                                                                                        <div
-                                                                                            class="row-fluid marginTop20">
-                                                                                            <div class="span12">
-                                                                                                <img src="https://italianbusinessregister.it/documents/20184/90449/company+profile.svg/fb2be0f0-f060-400d-b51d-d519a669b67a"
-                                                                                                    alt="Company Report"
-                                                                                                    class="imgPulsante" />
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="row-fluid rowTitoloPulsante">
-                                                                                            <div
-                                                                                                class="span12 spanTitoloPulsante">
-                                                                                                Company Report
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="span4 spanPulsanteHP text-center">
-                                                                            <div class="row-fluid">
-                                                                                <div class="span12">
-                                                                                    <a href="annual-accounts.html"
-                                                                                        onclick="blockScreen(); dataLayer.push({'event':'boxHP', 'action':'Annual Accounts'});"
-                                                                                        class="linkPulsanti">
-                                                                                        <div
-                                                                                            class="row-fluid marginTop20">
-                                                                                            <div class="span12">
-                                                                                                <img src="https://italianbusinessregister.it/documents/20184/90449/annual+account.svg/6af26cd5-549b-4704-bcac-13ceb86153f4"
-                                                                                                    alt="Annual Accounts"
-                                                                                                    class="imgPulsante" />
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="row-fluid rowTitoloPulsante">
-                                                                                            <div
-                                                                                                class="span12 spanTitoloPulsante">
-                                                                                                Annual Accounts
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="span4 spanPulsanteHP text-center">
-                                                                            <div class="row-fluid">
-                                                                                <div class="span12">
-                                                                                    <a href="lists-of-companies.html"
-                                                                                        onclick="blockScreen(); dataLayer.push({'event':'boxHP', 'action':'Lists of Companies'});"
-                                                                                        class="linkPulsanti">
-                                                                                        <div
-                                                                                            class="row-fluid marginTop20">
-                                                                                            <div class="span12">
-                                                                                                <img src="https://italianbusinessregister.it/documents/20184/90449/company+dossier.svg/7716bf6f-131a-4b44-b932-ac1391aa3082"
-                                                                                                    alt="Lists of Companies"
-                                                                                                    class="imgPulsante" />
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="row-fluid rowTitoloPulsante">
-                                                                                            <div
-                                                                                                class="span12 spanTitoloPulsante">
-                                                                                                Lists of Companies
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <style>
-                                                                        .spanPulsanteHP {
-                                                                            background: #092650;
-                                                                            color: white;
-                                                                            font-size: 20px;
-                                                                        }
-
-                                                                        .imgPulsante {
-                                                                            width: 90px;
-                                                                            height: 90px !important
-                                                                        }
-
-                                                                        .linkPulsanti {
-                                                                            color: white !important
-                                                                        }
-
-                                                                        .spanTitoloPulsante {
-                                                                            font-size: 25px;
-                                                                            font-weight: bold;
-                                                                        }
-
-                                                                        .rowTitoloPulsante {
-                                                                            margin-top: 20px
-                                                                        }
-
-                                                                        @media(max-width:979px) {
-                                                                            .spanPulsanteHP {
-                                                                                margin-top: 20px
-                                                                            }
-                                                                        }
-                                                                    </style>
-
-
-                                                                </div>
-
-
-
-
-
-
-
-                                                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </section>
-
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-
-
-
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="portlet-layout row-fluid row-info">
-
-                        <div class="portlet-column row-fluid width70auto">
-                            <div class="row-fluid" id="column-4">
-                                <div class="span12">
-                                    <div class="portlet-dropzone portlet-column-content portlet-column-content-only"
-                                        id="layout-column_column-4">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-borderless portlet-journal-content "
-                                            id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5NhCpd1qi2hX_">
-                                            <span
-                                                id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5NhCpd1qi2hX"></span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <section class="portlet"
-                                                id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5NhCpd1qi2hX">
-
-
-                                                <div class="portlet-content">
-
-                                                    <div class="autofit-float autofit-row portlet-header">
-
-                                                        <div class="autofit-col autofit-col-expand">
-                                                            <h5 class="portlet-title-text">hp</h5>
-                                                        </div>
-
-                                                        <div class="autofit-col autofit-col-end">
-                                                            <div class="autofit-section">
-                                                                <div class="visible-interaction">
-
-
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div id="about" class=" portlet-content-container">
-                                                        <div class="portlet-body">
-                                                            <div class=""
-                                                                data-fragments-editor-item-id="20109-676418"
-                                                                data-fragments-editor-item-type="fragments-editor-mapped-item">
-                                                                <div class="journal-content-article "
-                                                                    data-analytics-asset-id="676416"
-                                                                    data-analytics-asset-title="hp"
-                                                                    data-analytics-asset-type="web-content">
-                                                                    <div class="row-fluid width70auto">
-                                                                        <div class="span12">
-                                                                            <div class="row-fluid"
-                                                                                style="text-align: center;">
-                                                                                <div class="span12"
-                                                                                    style="color: rgb(82, 82, 82);">
-                                                                                    <span style="font-size:22px;"><b>Welcome
-                                                                                            to the website of LUXEMBOURG
-                                                                                            BUSINESS
-                                                                                            REGISTERS.</b></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="row-fluid"
-                                                                                style="text-align: center;">
-                                                                                <div class="span12"
-                                                                                    style="color: rgb(82, 82, 82);">
-                                                                                    <span
-                                                                                        style="font-size:18px;line-height: 21px;">
-                                                                                        LUXEMBOURG BUSINESS REGISTERS
-                                                                                        (LBR) is an economic interest
-                                                                                        grouping established by the
-                                                                                        State, the Chamber of Commerce
-                                                                                        (Chambre de Commerce) and the
-                                                                                        Chamber of Crafts (Chambre des
-                                                                                        Métiers) of the Grand Duchy of
-                                                                                        Luxembourg. It's mission is to
-                                                                                        manage and to develop the
-                                                                                        different registers it may be
-                                                                                        entrusted with by law, under the
-                                                                                        authority of the Minister of
-                                                                                        Justice.
-
-                                                                                        Since 23 January 2003, LBR
-                                                                                        ensures the management of the
-                                                                                        Trade and Companies Register.
-
-                                                                                        Since 1 June 2016, LBR is in
-                                                                                        charge of the electronic central
-                                                                                        platform of official
-                                                                                        publications concerning
-                                                                                        companies and associations, the
-                                                                                        "Recueil électronique des
-                                                                                        sociétés et associations"
-                                                                                        (RESA).
-
-                                                                                        The law of 13th of January 2019
-                                                                                        entrusted the LBR with the
-                                                                                        management of the Register of
-                                                                                        Beneficial Owners.
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <style type="text/css">
-                                                                        .rwd-video {
-                                                                            height: 0;
-                                                                            overflow: hidden;
-                                                                            padding-top: 30px;
-                                                                            margin-bottom: 30px;
-                                                                            position: relative;
-                                                                            padding-bottom: 25%
-                                                                        }
-
-                                                                        .rwd-video iframe,
-                                                                        .rwd-video object,
-                                                                        .rwd-video embed {
-                                                                            height: 100%;
-                                                                            left: 0;
-                                                                            position: absolute;
-                                                                            top: 0;
-                                                                            width: 100%;
-                                                                        }
-
-                                                                        @media(max-width:979px) {
-                                                                            .rwd-video {
-                                                                                padding-bottom: 50%
-                                                                            }
-                                                                        }
-                                                                    </style>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </section>
-
-                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content "
-                                            id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_RYBVtPIRqLNq_">
-                                            <span
-                                                id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_RYBVtPIRqLNq"></span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <section class="portlet"
-                                                id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_RYBVtPIRqLNq">
-
-
-                                                <div class="portlet-content">
-
-                                                    <div class="autofit-float autofit-row portlet-header">
-
-                                                        <div class="autofit-col autofit-col-expand">
-                                                            <h5 class="portlet-title-text">banner_id_lei</h5>
-                                                        </div>
-
-                                                        <div class="autofit-col autofit-col-end">
-                                                            <div class="autofit-section">
-                                                                <div class="visible-interaction">
-
-
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class=" portlet-content-container">
-
-
-
-                                                        <div class="portlet-body">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                            <div class=""
-                                                                data-fragments-editor-item-id="20109-9119919"
-                                                                data-fragments-editor-item-type="fragments-editor-mapped-item">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <div class="journal-content-article "
-                                                                    data-analytics-asset-id="9119917"
-                                                                    data-analytics-asset-title="banner_id_lei"
-                                                                    data-analytics-asset-type="web-content">
-
-
-                                                                    <style type="text/css">
-                                                                        .d-flex {
-                                                                            display: flex;
-                                                                            flex-wrap: wrap;
-                                                                        }
-
-                                                                        .col1 {
-                                                                            flex: 0.5;
-                                                                        }
-
-                                                                        .col2 {
-                                                                            flex: 1;
-                                                                        }
-
-                                                                        .mt-2 {
-                                                                            margin-top: 2rem !important;
-                                                                        }
-
-                                                                        .mt-5 {
-                                                                            margin-top: 5rem !important;
-                                                                        }
-
-                                                                        .padding {
-                                                                            padding: 2rem 5rem;
-                                                                        }
-
-                                                                        p {
-                                                                            line-height: 25px !important;
-                                                                        }
-
-                                                                        .align-items-center {
-                                                                            text-align: justify;
-                                                                            align-content: center;
-                                                                        }
-
-                                                                        .justify-content-end {
-                                                                            justify-content: end !important;
-                                                                        }
-
-                                                                        .border-blue {
-                                                                            border: 1px solid #2769B5;
-                                                                        }
-
-                                                                        #banner_idLei {
-                                                                            margin-left: -10vw;
-                                                                            padding-left: 10vw;
-                                                                            padding-right: 10vw;
-                                                                            margin-right: -10vw;
-                                                                        }
-
-                                                                        .imgHeaderBusinessHomePage {
-                                                                            width: 50%;
-                                                                        }
-
-                                                                        .text-white {
-                                                                            color: white !important;
-                                                                        }
-
-                                                                        .textTitleArea {
-                                                                            font-size: 1.8em;
-                                                                            margin-bottom: 12px !important;
-                                                                        }
-
-                                                                        .btn-water-green,
-                                                                        .btn-water-green:active,
-                                                                        .btn-water-green:hover {
-                                                                            display: inline-block;
-                                                                            font-weight: 600;
-                                                                            text-align: center;
-                                                                            text-decoration: none !important;
-                                                                            white-space: nowrap;
-                                                                            vertical-align: middle;
-                                                                            font-size: 1em;
-                                                                            line-height: 35px;
-                                                                            border-radius: 0;
-                                                                            color: #3D6A6C !important;
-                                                                            background-color: white;
-                                                                            border: 2px solid #3D6A6C;
-                                                                            width: 200px;
-                                                                            cursor: pointer;
-                                                                        }
-
-                                                                        .btn-water-green:hover {
-                                                                            background-color: #3D6A6C;
-                                                                            color: white !important;
-                                                                        }
-
-                                                                        .btn-water-green:active {
-                                                                            box-shadow: 0 0 5px -1px #666;
-                                                                        }
-
-                                                                        .home-page-id-lei-text {
-                                                                            margin-right: -10vw;
-                                                                            text-align: right;
-                                                                            background-color: #30898D;
-                                                                            clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
-                                                                        }
-
-                                                                        @media (max-width : 992px) {
-                                                                            .d-flex {
-                                                                                display: inline;
-                                                                            }
-
-                                                                            .home-page-id-lei-text {
-                                                                                margin-right: unset;
-                                                                                padding-left: 3rem !important;
-                                                                                padding-right: 3rem !important;
-                                                                                text-align: center;
-                                                                                clip-path: none !important;
-                                                                            }
-
-                                                                            .border-blue {
-                                                                                border: none;
-                                                                            }
-                                                                        }
-                                                                    </style>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-
-
-
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
 
-        <footer id="footer" role="contentinfo">
+        <footer id="footer" role="contentinfo" style="margin-top: 3rem;">
             <div class="row-fluid row-footer-navigation">
                 <div class="spanCenterFooter span12">
                     <div class="row-fluid width70auto text-center" style="position: relative">
@@ -2906,18 +2050,23 @@
         <nav id="resp-menu">
             <ul class="nav menu-vers-tablet">
                 <li>
-                    <a href='/#about' class="itemMenuMobile landingMobile mobile hoverdecoration-red">
+                    <a class="itemMenuMobile mobile landingMobile itemWithChildren hoverdecoration-red"
+                        href="/#about">
                         <b>About</b>
                     </a>
                 </li>
+
                 <li>
-                    <a href='{{ route('contact') }}' class="itemMenuMobile landingMobile mobile hoverdecoration-red">
+                    <a href='{{ route('contact') }}'
+                        class="
+            itemMenuMobile landingMobile mobile hoverdecoration-red">
                         <b>Support</b>
                     </a>
                 </li>
+
                 <li>
-                    <a href='{{ route('searchCompany') }}'
-                        class="itemMenuMobile landingMobile mobile hoverdecoration-red">
+                    <a class="itemMenuMobile mobile landingMobile itemWithChildren hoverdecoration-red"
+                        href="">
                         <b>Search Company</b>
                     </a>
                 </li>

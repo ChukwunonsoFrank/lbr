@@ -232,9 +232,9 @@ a.addItemDett {
     color: #a9a9a9;
 }
 
-.inputFiltroRicerca.uppercase {
+/*.inputFiltroRicerca.uppercase {
     text-transform: uppercase;
-}
+}*/
 
 .taglib-captcha {
     margin-top: 10px !important;
