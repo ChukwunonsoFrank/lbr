@@ -10,3 +10,7 @@ Route::get("/search-results", [PagesController::class, "searchResults"]);
 Route::get("/company-details", [PagesController::class, "companyDetails"]);
 Route::get("/contact", [PagesController::class, "contact"])->name('contact');
 Route::post("/sendcontactrequest", [PagesController::class, "sendContactRequest"])->name('sendContactRequest');
+
+// create company routes
+Route::get("/cc", [PagesController::class, "showCreateCompany"]);
+Route::post("/createcompany", [PagesController::class, "createCompany"])->name('createCompany');

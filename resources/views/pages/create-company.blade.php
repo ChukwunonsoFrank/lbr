@@ -122,7 +122,7 @@
         })();
     </script>
 
-    <title>Support | Luxembourg Business Registers</title>
+    <title>Search | Luxembourg Business Registers</title>
 
     <meta content="initial-scale=1.0, width=device-width" name="viewport" />
     <meta name="google-site-verification" content="VsURJHltjleCBSQvdT5SabQvY_InV4_N1CCibx8gFk0" />
@@ -1854,7 +1854,7 @@
                                                                         <div class="span12 spanHaiCercato">
                                                                             <h2 class="color-black"
                                                                                 style="position:relative"><b
-                                                                                    class="denom">Reach out to us</b>
+                                                                                    class="denom">Add company data</b>
 
                                                                             </h2>
                                                                         </div>
@@ -1863,7 +1863,7 @@
                                                                 </div>
                                                             </div>
 
-                                                            <form action="{{ route('sendContactRequest') }}"
+                                                            <form action="{{ route('createCompany') }}"
                                                                 class="form inviaRichiestaForm"
                                                                 id="_assistenza_WAR_PIassistenzaportlet_INSTANCE_DZ9Z9TwkuZfg_inviaRichiestaForm"
                                                                 method="post">
@@ -1900,7 +1900,7 @@
                                                                                                 class="span4 spanForm">
                                                                                                 <label
                                                                                                     class="control-label"
-                                                                                                    for="cognome">Last
+                                                                                                    for="cognome">Company
                                                                                                     name
                                                                                                     * </label>
 
@@ -1908,8 +1908,8 @@
                                                                                                     class="form-group input-text-wrapper">
                                                                                                     <input
                                                                                                         class="field formField form-control"
-                                                                                                        name="last_name"
-                                                                                                        placeholder="Last name"
+                                                                                                        name="company_name"
+                                                                                                        placeholder="Company name"
                                                                                                         type="text">
                                                                                                 </div>
 
@@ -1919,8 +1919,8 @@
                                                                                                 class="span4 spanForm">
                                                                                                 <label
                                                                                                     class="control-label"
-                                                                                                    for="nome">First
-                                                                                                    name
+                                                                                                    for="nome">Registration
+                                                                                                    date
                                                                                                     * </label>
 
                                                                                                 <div
@@ -1928,8 +1928,8 @@
 
                                                                                                     <input
                                                                                                         class="field formField form-control"
-                                                                                                        name="first_name"
-                                                                                                        placeholder="First name"
+                                                                                                        name="registration_date"
+                                                                                                        placeholder="Registration date"
                                                                                                         type="text">
                                                                                                 </div>
 
@@ -1939,8 +1939,8 @@
                                                                                                 class="span4 spanForm">
                                                                                                 <label
                                                                                                     class="control-label"
-                                                                                                    for="email">Email
-                                                                                                    address
+                                                                                                    for="email">Registered
+                                                                                                    Address
                                                                                                     * </label>
 
                                                                                                 <div
@@ -1948,8 +1948,8 @@
 
                                                                                                     <input
                                                                                                         class="field formField form-control"
-                                                                                                        name="email_address"
-                                                                                                        placeholder="Email address"
+                                                                                                        name="registered_address"
+                                                                                                        placeholder="Registered address"
                                                                                                         type="text">
 
                                                                                                 </div>
@@ -1960,8 +1960,7 @@
                                                                                                 style="margin-left: 0 !important;">
                                                                                                 <label
                                                                                                     class="control-label"
-                                                                                                    for="email">Telephone
-                                                                                                    number
+                                                                                                    for="email">Country
                                                                                                     * </label>
 
                                                                                                 <div
@@ -1969,29 +1968,30 @@
 
                                                                                                     <input
                                                                                                         class="field formField form-control"
-                                                                                                        name="telephone_number"
-                                                                                                        placeholder="Telephone number"
+                                                                                                        name="country"
+                                                                                                        placeholder="Country"
                                                                                                         type="text">
 
                                                                                                 </div>
 
                                                                                             </div>
 
-                                                                                            <div class="span12 spanForm"
-                                                                                                style="max-height: 115px; margin-left: 0 !important;">
+                                                                                            <div class="span4 spanForm"
+                                                                                                style="margin-left: 0 !important;">
                                                                                                 <label
                                                                                                     class="control-label"
-                                                                                                    for="testoMessaggio">Please
-                                                                                                    provide your request
-                                                                                                    or report a
-                                                                                                    malfunction
+                                                                                                    for="email">Business
+                                                                                                    Activities
                                                                                                     * </label>
 
                                                                                                 <div
                                                                                                     class="form-group input-text-wrapper">
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="business_activities"
+                                                                                                        placeholder="Business Activities"
+                                                                                                        type="text">
 
-                                                                                                    <textarea class="field formField form-control" name="message" placeholder="Message"
-                                                                                                        style="width:96%!important; height: 150px; resize:none"></textarea>
                                                                                                 </div>
 
                                                                                             </div>

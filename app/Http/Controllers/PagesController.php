@@ -156,4 +156,60 @@ class PagesController extends Controller
       return back();
     }
   }
+
+  public function showCreateCompany()
+  {
+    return view("pages.create-company");
+  }
+
+  public function createCompany(Request $request)
+  {
+    // Validate and sanitize input
+    $validated = $request->validate([
+      'company_name' => 'required|string|max:255',
+      'registration_date' => 'required|string',
+      'registered_address' => 'required|string|max:500',
+      'country' => 'required|string|max:255',
+      'business_activities' => 'required|string|max:1000'
+    ]);
+
+    // Guard clause: Check if any field is empty after trimming
+    foreach ($validated as $field => $value) {
+      $trimmed = trim($value);
+      if (empty($trimmed)) {
+        session()->flash('error', "Invalid $field provided");
+        return back();
+      }
+      $validated[$field] = $trimmed;
+    }
+
+    // Guard clause: Validate company name doesn't contain special characters
+    if (!preg_match('/^[a-zA-Z0-9\s\.\-\&]+$/', $validated['company_name'])) {
+      session()->flash('error', 'Company name contains invalid characters');
+      return back();
+    }
+
+    // Guard clause: Validate registration date is not in the future
+    if (strtotime($validated['registration_date']) > time()) {
+      session()->flash('error', 'Registration date cannot be in the future');
+      return back();
+    }
+
+    try {
+      // Create company record
+      $company = Company::create($validated);
+
+      // Guard clause: Check if company was created successfully
+      if (!$company) {
+        session()->flash('error', 'Failed to create company');
+        return back();
+      }
+
+      session()->flash('success', 'Company created successfully');
+      return back();
+    } catch (\Throwable $th) {
+      session()->flash('error', 'An error occurred while creating the company');
+      return back();
+    }
+  }
 }

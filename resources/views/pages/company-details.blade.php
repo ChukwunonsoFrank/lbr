@@ -1729,7 +1729,7 @@
                                                                     </div>
                                                                     <div class="span9 font16 infoDetail"
                                                                         style="color: #3c763d !important; font-weight: bold !important;">
-                                                                        {{ $company->status }}
+                                                                        {{ ucfirst($company->status) }}
                                                                     </div>
                                                                 </div>
 
