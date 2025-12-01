@@ -4666,9 +4666,7 @@
 
                                                                                                     <div
                                                                                                         class="row-fluid row-padre">
-                                                                                                        <a onclick="addTagManagerForDetail();blockScreen()"
-                                                                                                            href="https://italianbusinessregister.it/en/search-results?p_p_id=risultatiricercaimprese_WAR_ricercaPIportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_javax.portlet.action=visualizzaDettaglio&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_id=LeKTwujG%2FOUFlcMhaJxR3w%3D%3D&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_pageToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3VudCI6MjUwLCJleHAiOjE3NjQxODczMDh9.n6uv4hU4-PLd9l5OqNYiOhm1b9qzLkbvbEnWilSPTI8&amp;p_auth=q1WIaA5s"
-                                                                                                            class="linkRisultatiRicerca linkRisultatiRicercaTabella">
+                                                                                                        <a>
                                                                                                             <div
                                                                                                                 class="span1">
                                                                                                                 <div
@@ -4743,9 +4741,7 @@
 
                                                                                                         </div>
 
-                                                                                                        <a onclick="addTagManagerForDetail();blockScreen()"
-                                                                                                            href="https://italianbusinessregister.it/en/search-results?p_p_id=risultatiricercaimprese_WAR_ricercaPIportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_javax.portlet.action=visualizzaDettaglio&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_id=LeKTwujG%2FOUFlcMhaJxR3w%3D%3D&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_pageToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3VudCI6MjUwLCJleHAiOjE3NjQxODczMDh9.n6uv4hU4-PLd9l5OqNYiOhm1b9qzLkbvbEnWilSPTI8&amp;p_auth=q1WIaA5s"
-                                                                                                            class="linkRisultatiRicerca linkRisultatiRicercaTabella">
+                                                                                                        <a>
                                                                                                             <div
                                                                                                                 class="span1 ">
                                                                                                                 <div
