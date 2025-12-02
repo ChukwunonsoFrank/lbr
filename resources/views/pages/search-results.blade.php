@@ -4718,28 +4718,7 @@
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
-
-
                                                                                                         </a>
-                                                                                                        <a>
-                                                                                                            <div
-                                                                                                                class="span1 ">
-                                                                                                                <div
-                                                                                                                    class="row-fluid">
-                                                                                                                    <div
-                                                                                                                        class="span12">
-
-                                                                                                                        Country:
-                                                                                                                        {{ $result->country }}
-
-
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-
-                                                                                                        </a>
-
-
                                                                                                         <div
                                                                                                             class="span2 text-right">
 
