@@ -154,9 +154,6 @@
     <link data-senna-track="temporary" href="https://italianbusinessregister.it/de/" hreflang="de-DE" rel="alternate" />
     <link data-senna-track="temporary" href="index.html" hreflang="x-default" rel="alternate" />
 
-    <link href="https://italianbusinessregister.it/o/PortaleInternazionale-theme/images/favicon.ico"
-        rel="apple-touch-icon" />
-    <link href="https://italianbusinessregister.it/o/PortaleInternazionale-theme/images/favicon.ico" rel="icon" />
     <link class="lfr-css-file" data-senna-track="temporary"
         href="../o/PortaleInternazionale-theme/css/clay1ee7.css?browserId=other&amp;themeId=PortaleInternazionale_WAR_PortaleInternazionaletheme&amp;languageId=en_US&amp;t=1762412978000"
         id="liferayAUICSS" rel="stylesheet" type="text/css" />
@@ -1389,57 +1386,7 @@
 
     <link rel="stylesheet" href="../o/PortaleInternazionale-theme/css/font-awesome.min.css" />
 
-    <link rel="icon" type="image/x-icon"
-        href="https://italianbusinessregister.it/o/PortaleInternazionale-theme/images/favicon.ico">
-
-    <!-- Web Application Manifest -->
-    <link rel="manifest" href="https://italianbusinessregister.it/o/PortaleInternazionale-theme/images/manifest.json">
-
-    <meta name="msapplication-tap-highlight" content="no">
-
-    <meta property="og:image"
-        content="https://italianbusinessregister.it/documents/20184/90449/fb-lkn.jpg/9e440621-880a-4ab4-ab1a-4a8db0875aa5?t=1562236247004">
-    <meta property="twitter:image"
-        content="https://italianbusinessregister.it/documents/20184/90449/twitter.jpg/82019b48-340f-4dc8-b0e7-ffdbfae43631?t=1562236266260">
-
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Italian Business Register">
-    <link rel="icon" type="image/png" sizes="192x192"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-192x192.png">
-    <link rel="icon" type="image/png" sizes="96x96"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-96x96.png">
-    <link rel="icon" type="image/png" sizes="96x96"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-48x48.png">
-    <link rel="icon" type="image/png" sizes="96x96"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-72x72.png">
-    <link rel="icon" type="image/png" sizes="96x96"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-144x144.png">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Italian Business Register">
-    <link rel="apple-touch-icon" sizes="72x72"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-144x144.png">
-    <link rel="apple-touch-icon" sizes="192x192"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-192x192.png">
-    <link rel="apple-touch-icon" sizes="48x48"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-48x48.png">
-    <link rel="apple-touch-icon" sizes="96x96"
-        href="../o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-96x96.png">
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage"
-        content="https://italianbusinessregister.it/o/PortaleInternazionale-theme/images/favicon-italianbusinessregister-144x144.png">
-    <meta name="msapplication-TileColor" content="#0078D7">
-    <meta name="msapplication-navbutton-color" content="#333333">
-    <meta name="msapplication-starturl" content="https://italianbusinessregister.it/">
-
-    <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#c33">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('o/PortaleInternazionale-theme/images/favicon.svg') }}">
 
     <script>
         AUI().use('node', 'event', 'event-custom', 'aui-dialog', 'liferay-portlet-url', 'aui-popover', 'aui-modal',
@@ -1728,7 +1675,7 @@
                                                                         <b class="font16">Status</b>
                                                                     </div>
                                                                     <div class="span9 font16 infoDetail"
-                                                                        style="color: #3c763d !important; font-weight: bold !important;">
+                                                                        style="color: #66FF00 !important; font-weight: bold !important;">
                                                                         {{ ucfirst($company->status) }}
                                                                     </div>
                                                                 </div>
