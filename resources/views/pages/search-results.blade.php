@@ -4668,8 +4668,9 @@
 
                                                                                                                     <div
                                                                                                                         class="row span12">
-                                                                                                                        Registered
-                                                                                                                        Office
+                                                                                                                        Registration
+                                                                                                                        Date:
+                                                                                                                        {{ $result->registration_date }}
                                                                                                                     </div>
 
 
@@ -4677,7 +4678,7 @@
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </a>
-
+                                                                                                        {{--
                                                                                                         <div
                                                                                                             class="span1 text-center">
 
@@ -4686,7 +4687,7 @@
                                                                                                                 class="imgWorld"
                                                                                                                 onclick="showGlobalMap('IM-224289')">
 
-                                                                                                        </div>
+                                                                                                        </div> --}}
 
                                                                                                         <a>
                                                                                                             <div
@@ -4696,7 +4697,9 @@
                                                                                                                     <div
                                                                                                                         class="span12">
 
-                                                                                                                        {{ $result->country }}
+                                                                                                                        Registered
+                                                                                                                        Address:
+                                                                                                                        {{ $result->registered_address }}
 
 
                                                                                                                     </div>
@@ -4706,13 +4709,33 @@
                                                                                                                 class="span2 ">
                                                                                                                 <div
                                                                                                                     class="row-fluid">
+                                                                                                                    <span
+                                                                                                                        style="display: inline !important;">Status:
+                                                                                                                    </span>
                                                                                                                     <div
-                                                                                                                        style="color: #005f5a !important; font-weight: bold !important; padding: 4px 12px !important; border-radius: 4px !important; background-color: #cbfbf1 !important; width: fit-content !important;">
-                                                                                                                        {{ ucfirst($result->status) }}
+                                                                                                                        style="display: inline !important;color: #005f5a !important; font-weight: bold !important; padding: 4px 12px !important; border-radius: 4px !important; background-color: #cbfbf1 !important; width: fit-content !important; font-size: 14px !important;">
+                                                                                                                        {{ strtoupper($result->status) }}
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
 
+
+                                                                                                        </a>
+                                                                                                        <a>
+                                                                                                            <div
+                                                                                                                class="span1 ">
+                                                                                                                <div
+                                                                                                                    class="row-fluid">
+                                                                                                                    <div
+                                                                                                                        class="span12">
+
+                                                                                                                        Country:
+                                                                                                                        {{ $result->country }}
+
+
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
 
                                                                                                         </a>
 
