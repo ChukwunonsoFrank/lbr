@@ -1675,7 +1675,7 @@
                                                                         <b class="font16">Status</b>
                                                                     </div>
                                                                     <div class="span9 font16 infoDetail"
-                                                                        style="color: #66FF00 !important; font-weight: bold !important;">
+                                                                        style="color: #005f5a !important; font-weight: bold !important; padding: 4px 12px !important; border-radius: 4px !important; background-color: #cbfbf1 !important; width: fit-content !important;">
                                                                         {{ ucfirst($company->status) }}
                                                                     </div>
                                                                 </div>

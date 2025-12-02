@@ -4706,8 +4706,8 @@
                                                                                                                 class="span2 ">
                                                                                                                 <div
                                                                                                                     class="row-fluid">
-                                                                                                                    <div class="span12"
-                                                                                                                        style="color: #66FF00 !important; font-weight: bold !important;">
+                                                                                                                    <div
+                                                                                                                        style="color: #005f5a !important; font-weight: bold !important; padding: 4px 12px !important; border-radius: 4px !important; background-color: #cbfbf1 !important; width: fit-content !important;">
                                                                                                                         {{ ucfirst($result->status) }}
                                                                                                                     </div>
                                                                                                                 </div>
