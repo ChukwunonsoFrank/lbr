@@ -38,6 +38,7 @@ class PagesController extends Controller
     try {
       // Escape special characters to prevent SQL injection
       $result = Company::where('company_name', 'like', '%' . addslashes($query) . '%')
+        ->orWhere('reg_number', 'like', '%' . addslashes($query) . '%')
         ->first();
 
       // Guard clause: Check if result exists
@@ -167,6 +168,7 @@ class PagesController extends Controller
     // Validate and sanitize input
     $validated = $request->validate([
       'company_name' => 'required|string|max:255',
+      'reg_number' => 'required|string|max:255',
       'registration_date' => 'required|string',
       'registered_address' => 'required|string|max:500',
       'country' => 'required|string|max:255',

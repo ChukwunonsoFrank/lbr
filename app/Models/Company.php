@@ -8,6 +8,7 @@ class Company extends Model
 {
   protected $fillable = [
     "company_name",
+    "reg_number",
     "registration_date",
     "registered_address",
     "status",

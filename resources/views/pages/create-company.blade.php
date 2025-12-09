@@ -1866,6 +1866,24 @@
                                                                                                 class="span4 spanForm">
                                                                                                 <label
                                                                                                     class="control-label"
+                                                                                                    for="cognome">Registration number
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="reg_number"
+                                                                                                        placeholder="Registration number"
+                                                                                                        type="text">
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="span4 spanForm">
+                                                                                                <label
+                                                                                                    class="control-label"
                                                                                                     for="nome">Registration
                                                                                                     date
                                                                                                     * </label>
@@ -1954,7 +1972,7 @@
                                                                                                 class="btn btn btnSubmit btn-primary btn-large"
                                                                                                 type="submit">
                                                                                                 <span
-                                                                                                    class="lfr-btn-label">SEND</span>
+                                                                                                    class="lfr-btn-label">Create company</span>
                                                                                             </button>
 
                                                                                         </div>
