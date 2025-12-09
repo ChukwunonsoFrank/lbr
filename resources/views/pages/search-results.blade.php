@@ -4691,7 +4691,7 @@
 
                                                                                                         <a>
                                                                                                             <div
-                                                                                                                class="span1 ">
+                                                                                                                class="span1 mb-2">
                                                                                                                 <div
                                                                                                                     class="row-fluid">
                                                                                                                     <div

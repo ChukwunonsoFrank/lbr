@@ -1603,7 +1603,7 @@
                                                             <div class="row-fluid marginTop10">
                                                                 <div class="span12">
                                                                     <span>
-                                                                        <a href="https://italianbusinessregister.it/en/company-detail?p_p_id=risultatiricercaimprese_WAR_ricercaPIportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_javax.portlet.action=cerca&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_backToResults=true&amp;_risultatiricercaimprese_WAR_ricercaPIportlet_pageToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3VudCI6MjUwLCJleHAiOjE3NjQzNTI2Nzh9.6kQh9yD9TNdLElyaaKJ2V94lZGzBHER7yHreBQ-wyyU&amp;p_auth=vn68ored"
+                                                                        <a href="#"
                                                                             onclick="blockScreen()"
                                                                             style="color: #1c2024;font-size: 16px; ">
                                                                             <img
