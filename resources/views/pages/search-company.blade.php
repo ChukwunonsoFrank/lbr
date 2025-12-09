@@ -1897,7 +1897,7 @@
                                                                                         name="query" type="text"
                                                                                         class="inputFiltroRicerca inputFiltroRicercaPopup width100 inputWithDeleteBlack"
                                                                                         style="border-radius: 10px ; font-size: 10pt !important; font-family: 'Roboto-Regular',sans-serif; height: 35px !important"
-                                                                                        placeholder="Enter a trade name or RCS number (B123456)"
+                                                                                        placeholder="Enter company name or Reg number"
                                                                                         autocomplete="off"
                                                                                         tabindex="0" />
 
