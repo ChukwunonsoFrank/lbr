@@ -13,6 +13,7 @@ class Company extends Model
     "registered_address",
     "status",
     "country",
-    "business_activities"
+    "business_activities",
+    "official_website_url"
   ];
 }

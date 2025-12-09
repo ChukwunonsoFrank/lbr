@@ -1603,8 +1603,7 @@
                                                             <div class="row-fluid marginTop10">
                                                                 <div class="span12">
                                                                     <span>
-                                                                        <a href="#"
-                                                                            onclick="blockScreen()"
+                                                                        <a href="#" onclick="blockScreen()"
                                                                             style="color: #1c2024;font-size: 16px; ">
                                                                             <img
                                                                                 src="{{ asset('o/ricercaimprese/images/back.svg') }}">
@@ -1695,6 +1694,16 @@
                                                                     </div>
                                                                     <div class="span9 font16 infoDetail">
                                                                         {{ $company->business_activities }}
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row-fluid marginTop20">
+                                                                    <div class="span3 color-black">
+                                                                        <b class="font16">Official Website</b>
+                                                                    </div>
+                                                                    <div class="span9 font16 infoDetail">
+                                                                        <a style="text-decoration: underline;"
+                                                                            href="{{ $company->official_website_url }}">{{ $company->official_website_url }}</a>
                                                                     </div>
                                                                 </div>
 

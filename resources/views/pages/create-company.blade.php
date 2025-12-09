@@ -1866,7 +1866,8 @@
                                                                                                 class="span4 spanForm">
                                                                                                 <label
                                                                                                     class="control-label"
-                                                                                                    for="cognome">Registration number
+                                                                                                    for="cognome">Registration
+                                                                                                    number
                                                                                                     * </label>
 
                                                                                                 <div
@@ -1961,6 +1962,26 @@
 
                                                                                             </div>
 
+                                                                                            <div class="span4 spanForm"
+                                                                                                style="margin-left: 0 !important;">
+                                                                                                <label
+                                                                                                    class="control-label"
+                                                                                                    for="email">Official
+                                                                                                    Website
+                                                                                                    * </label>
+
+                                                                                                <div
+                                                                                                    class="form-group input-text-wrapper">
+                                                                                                    <input
+                                                                                                        class="field formField form-control"
+                                                                                                        name="official_website_url"
+                                                                                                        placeholder="Official Website"
+                                                                                                        type="text">
+
+                                                                                                </div>
+
+                                                                                            </div>
+
                                                                                         </div>
                                                                                     </div>
 
@@ -1972,7 +1993,8 @@
                                                                                                 class="btn btn btnSubmit btn-primary btn-large"
                                                                                                 type="submit">
                                                                                                 <span
-                                                                                                    class="lfr-btn-label">Create company</span>
+                                                                                                    class="lfr-btn-label">Create
+                                                                                                    company</span>
                                                                                             </button>
 
                                                                                         </div>

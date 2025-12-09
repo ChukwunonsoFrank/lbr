@@ -172,7 +172,8 @@ class PagesController extends Controller
       'registration_date' => 'required|string',
       'registered_address' => 'required|string|max:500',
       'country' => 'required|string|max:255',
-      'business_activities' => 'required|string|max:1000'
+      'business_activities' => 'required|string|max:1000',
+      'official_website_url' => 'required|string|max:255',
     ]);
 
     // Guard clause: Check if any field is empty after trimming
