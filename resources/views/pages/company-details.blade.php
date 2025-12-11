@@ -1653,6 +1653,15 @@
 
                                                                 <div class="row-fluid marginTop20">
                                                                     <div class="span3 color-black">
+                                                                        <b class="font16">Registration Number</b>
+                                                                    </div>
+                                                                    <div class="span9 font16 infoDetail">
+                                                                        {{ $company->reg_number }}
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row-fluid marginTop20">
+                                                                    <div class="span3 color-black">
                                                                         <b class="font16">Registration Date</b>
                                                                     </div>
                                                                     <div class="span9 font16 infoDetail">
